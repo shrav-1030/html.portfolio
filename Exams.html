@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exams - Exam System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Exam Management</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="grading.html">Grading</a></li>
+            <li><a href="reports.html">Reports</a></li>
+        </ul>
+    </nav>
+    
+    <section class="section">
+        <h2>Manage Exams</h2>
+        <ul id="exam-list">
+            <li>Math Test <button class="delete-btn">X</button></li>
+            <li>Science Quiz <button class="delete-btn">X</button></li>
+        </ul>
+        <input type="text" id="exam-input" placeholder="Add New Exam">
+        <button onclick="addExam()">Add Exam</button>
+    </section>
+    
+    <script src="exam_script.js"></script>
+</body>
+</html>

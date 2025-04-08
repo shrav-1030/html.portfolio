@@ -1,22 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>All About Shravya Shetty</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Examination System</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1 style="color:darkcyan;">Shravya Shetty's Portfolio</h1>
-<h2 style="color:maroon;">I'm a Web Developer</h2>
-<hr />
-<h3><a href="./newfolder/aboutme.html">About Me</a></h3>
-<hr />
-<h3><a href="./newfolder/birthdayinvite.html">Birthday Invite Project</a></h3>
-<img src="./newfolder/birthdayinvite.png">
-<hr />
-<h3><a href="./newfolder/movieranking.html">Movie ranking Project</a></h3>
-<img src="./newfolder/movieranking.png">
-<hr />
-<h3><a href="./newfolder/contactme.html">Contact Me</a></h3>
-<hr />
+    <nav class="navbar">
+        <h1>Integrated Examination System</h1>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#exams">Exams</a></li>
+            <li><a href="#grading">Grading</a></li>
+            <li><a href="#reports">Reports</a></li>
+        </ul>
+    </nav>
+    
+    <section id="dashboard" class="section">
+        <h2>Dashboard</h2>
+        <p>Welcome to the Examination System Dashboard</p>
+    </section>
+
+    <section id="exams" class="section">
+        <h2>Exam Management</h2>
+        <ul id="exam-list">
+            <li>Math Test</li>
+            <li>Science Quiz</li>
+        </ul>
+        <input type="text" id="exam-input" placeholder="Add New Exam">
+        <button onclick="addExam()">Add Exam</button>
+    </section>
+
+    <section id="grading" class="section">
+        <h2>Grading System</h2>
+        <p>Grading System - Coming Soon</p>
+    </section>
+
+    <section id="reports" class="section">
+        <h2>Reports & Analytics</h2>
+        <p>Reports & Analytics - Coming Soon</p>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
